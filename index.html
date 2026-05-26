@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogos Infantis</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #fefce8;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+      color: #14532d;
+    }
+    .lead {
+      color: #4b5563;
+      margin-bottom: 32px;
+    }
+    .games { display: grid; gap: 16px; }
+    .game-card {
+      display: block;
+      padding: 20px 24px;
+      background: white;
+      border: 2px solid #8FB72D;
+      border-radius: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.1s, box-shadow 0.1s;
+    }
+    .game-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(143, 183, 45, 0.25);
+    }
+    .game-card h2 {
+      margin: 0 0 4px;
+      color: #14532d;
+      font-size: 1.25rem;
+    }
+    .game-card p { margin: 0; color: #4b5563; font-size: 0.95rem; }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #d1d5db;
+      font-size: 0.85rem;
+      color: #6b7280;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jogos Infantis</h1>
+  <p class="lead">Jogos educativos offline, sem anúncios, sem coleta de dados.</p>
+
+  <div class="games">
+    <a class="game-card" href="/capimatica/">
+      <h2>Capimatica</h2>
+      <p>Tabuada das Capivaras — matemática divertida para crianças.</p>
+    </a>
+  </div>
+
+  <footer>
+    Contato: capimatica@duck.com
+  </footer>
+</body>
+</html>
